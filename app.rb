@@ -8,6 +8,9 @@ get '/reversename/:name' do
   "#{@user_name.reverse}"
 end 
 
+get '/square/:number' do 
+  @number = params[:number]
+  
 
 
 
