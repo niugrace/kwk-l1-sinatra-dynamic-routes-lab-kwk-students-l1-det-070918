@@ -10,8 +10,9 @@ end
 
 get '/square/:number' do 
   @number = params[:number]
-  "#{@number.to_i.to_s"
+  "#{@number.to_i.to_s}"
 end 
+
 
   
 
